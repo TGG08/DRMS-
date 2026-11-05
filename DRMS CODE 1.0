@@ -1,0 +1,5 @@
+START by making sure all sensors are on and tracking 
+WHEN user hits "start movemnet" sensors should begin tracking of movement 
+WHEN sensors reach peak negative drift and have movement forward BEGIN measurement 
+BY tracking max seperation of 2 torso sensors and 2 pelvis sensors the sensors
+THEN tracking should be determined by maximum devition of each pair to each other 
